@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="12dp">
+
+        <com.nelsonmeireles.wheremapa2.utils.RoundedImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageViewRow"
+            android:maxHeight="60dp"
+            android:maxWidth="60dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/rowTextViewName"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.8"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/rowTextViewCategoria"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editImageButton"
+            android:src="@android:drawable/ic_menu_edit"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/deleteImageButton"
+            android:src="@android:drawable/ic_menu_delete"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="5dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

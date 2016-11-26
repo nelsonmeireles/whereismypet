@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Where is my pet?</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_name">Nome</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="confirm_prompt_password">Confirmar Senha</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="register">Cadastre-se</string>
+    <string name="register_act">Cadastrar</string>
+    <string name="back">Voltar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main2">Where is my pet?</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Sair</string>
+    <string name="config">Editar Perfil</string>
+    <string name="home">Home</string>
+    <string name="my_pets">Meus Pets</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
