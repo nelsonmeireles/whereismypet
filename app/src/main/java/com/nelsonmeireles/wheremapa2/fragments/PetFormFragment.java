@@ -367,8 +367,6 @@ public class PetFormFragment extends Fragment implements GoogleApiClient.Connect
             }
             if(bitmap!=null){
                 petEdit.setPhoto(bitmapToBase64(bitmap));
-            } else {
-                petEdit.setPhoto(null);
             }
             if(isMale){
                 petEdit.setGender("male");
